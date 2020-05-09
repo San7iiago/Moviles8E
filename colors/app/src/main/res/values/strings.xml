@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Colors</string>
+    <string name="email">Email:</string>
+    <string name="phone">Phone:</string>
+    <string name="_return">Return</string>
+    <string name="helper">HELP</string>
+    <string name="domicile">Domicile:</string>
+    <string name="yellow">Yellow</string>
+    <string name="blue">Blue</string>
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="pink">Pink</string>
+    <string name="black">Black</string>
+    <string name="purple">Purple</string>
+    <string name="white">White</string>
+    <string name="brown">Brown</string>
+    <string name="gray">Gray</string>
+    <string name="transparent">Transparent</string>
+    <string name="semitransparente">Semitransparent</string>
+    <string name="opaque">Opaque</string>
+    <string name="alpha">Alpha</string>
+</resources>
