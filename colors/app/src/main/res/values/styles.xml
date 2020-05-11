@@ -8,4 +8,8 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="AppThemeColors" parent="Theme.AppCompat.DayNight.DarkActionBar"/>
+
+    <style name="Aditions" parent="Theme.AppCompat.DayNight.NoActionBar"/>
+
 </resources>

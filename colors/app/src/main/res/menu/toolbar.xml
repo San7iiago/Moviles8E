@@ -6,35 +6,23 @@
         android:id="@+id/btnHelp"
         android:icon="@drawable/ic_help"
         android:title="Help"
-        app:showAsAction="always">
+        app:showAsAction="ifRoom">
     </item>
 
     <item
         android:id="@+id/btnRestart"
-        android:icon="@drawable/ic_reset"
+        android:icon="@drawable/ic_reset_white"
         android:title="Restablecer"
-        app:showAsAction="always">
+        app:showAsAction="ifRoom">
     </item>
 
     <item
         android:id="@+id/btnMore"
         android:icon="@drawable/ic_more"
-        android:title="More"
-        app:showAsAction="always"
-        >
+        android:title="Colors"
+        app:showAsAction="never">
+
         <menu>
-            <item
-                android:id="@+id/reset"
-                android:title="Reset"
-                android:icon="@drawable/ic_reset"/>
-            <item
-                android:id="@+id/aboutOf"
-                android:title="About Of"
-                android:icon="@drawable/ic_about"/>
-            <item
-                android:id="@+id/close"
-                android:title="Close app"
-                android:icon="@drawable/ic_close"/>
             <item
                 android:id="@+id/iteTransparent"
                 android:title="@string/transparent"/>
@@ -76,5 +64,21 @@
                 android:title="@string/gray"/>
         </menu>
     </item>
+
+    <item
+        android:id="@+id/reset"
+        android:title="Reset"
+        android:icon="@drawable/ic_reset"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/aboutOf"
+        android:title="About Of"
+        android:icon="@drawable/ic_about"/>
+
+    <item
+        android:id="@+id/close"
+        android:title="Close app"
+        android:icon="@drawable/ic_close"/>
 
 </menu>
