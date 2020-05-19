@@ -9,15 +9,23 @@
         android:roundIcon="@mipmap/ic_index_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Help" android:theme="@style/Aditions"></activity>
-        <activity android:name=".MainActivity" android:theme="@style/AppThemeColors">
+        <activity android:name=".MainActivity" android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AboutOf" android:theme="@style/Aditions"/>
+        <activity
+            android:name=".Help"
+            android:label="Help"
+            android:theme="@style/AppTheme"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity
+            android:name=".AboutOf"
+            android:label="About Of"
+            android:theme="@style/AppTheme"
+            android:parentActivityName=".MainActivity"/>
     </application>
 
 </manifest>

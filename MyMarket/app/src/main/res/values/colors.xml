@@ -5,8 +5,8 @@
     <color name="colorAccent">#D81B60</color>
 
     <!-- Button colors -->
-    <color name="colorBtnLogin">#2ecc71</color>
-    <color name="colorBtnRegister">#e74c3c</color>
+    <color name="colorBtnLogin">#e74c3c</color>
+    <color name="colorBtnRegister">#2ecc71</color>
 
     <!-- Text colors -->
     <color name="colorTxtLogin">#FFFFFF</color>

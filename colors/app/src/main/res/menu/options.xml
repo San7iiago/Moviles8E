@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@+id/iteTransparent" android:title="Transparent"/>
+    <!-- <item android:id="@+id/iteTransparent" android:title="Transparent"/>
     <item android:id="@+id/iteSemitransparent" android:title="Semitransparent"/>
     <item android:id="@+id/iteOpaque" android:title="Opaque"/>
     <item android:id="@+id/iteYellow" android:title="Yellow"/>
@@ -12,5 +12,15 @@
     <item android:id="@+id/itePink" android:title="Pink"/>
     <item android:id="@+id/itePurple" android:title="Purple"/>
     <item android:id="@+id/iteWhite" android:title="White"/>
-    <item android:id="@+id/iteGray" android:title="Gray"/>
+    <item android:id="@+id/iteGray" android:title="Gray"/> -->
+
+    <item
+        android:id="@+id/reset"
+        android:icon="@drawable/ic_reset"
+        android:title="Reset"/>
+
+    <item
+        android:id="@+id/btnHelp"
+        android:icon="@drawable/ic_help_black"
+        android:title="Help"/>
 </menu>

@@ -65,9 +65,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="@string/txtBtn_Register"
             android:background="@color/colorBtnRegister"
-            android:textColor="@color/colorTxtLogin"/>
+            android:onClick="btnGotoRegisterForm"
+            android:text="@string/txtBtn_Register"
+            android:textColor="@color/colorTxtLogin" />
 
         <LinearLayout
             android:layout_marginTop="20dp"

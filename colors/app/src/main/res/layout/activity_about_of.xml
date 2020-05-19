@@ -14,7 +14,7 @@
 
         <FrameLayout
             android:layout_gravity="center"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="30dp"
             android:layout_width="200dp"
             android:layout_height="200dp"
             android:background="@mipmap/logo">
@@ -71,25 +71,6 @@
                 android:textColor="#009688"
                 android:textSize="24sp"
                 app:fontFamily="cursive"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginBottom="10dp">
-
-            <Button
-                android:id="@+id/atras"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:background="#00BCD4"
-                android:text="@string/_return"
-                android:textColor="#FFFFFF"
-                android:textColorHint="#3F51B5"
-                android:textSize="18sp"
-                app:layout_constraintTop_toBottomOf="@+id/programer"/>
         </LinearLayout>
     </LinearLayout>
 </RelativeLayout>

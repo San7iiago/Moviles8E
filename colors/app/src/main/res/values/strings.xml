@@ -3,8 +3,11 @@
     <string name="email">Email:</string>
     <string name="phone">Phone:</string>
     <string name="_return">Return</string>
-    <string name="helper">HELP</string>
+    <string name="helper">Contact Me</string>
     <string name="domicile">Domicile:</string>
+    <string name="lblDomicile">Cra. 20 # 16A - 15 / Pasto</string>
+    <string name="lblEmail">santiago.28.n@gmail.com</string>
+    <string name="lblPhone">(+57) 311 653 85 29</string>
     <string name="yellow">Yellow</string>
     <string name="blue">Blue</string>
     <string name="red">Red</string>
@@ -19,4 +22,5 @@
     <string name="semitransparente">Semitransparent</string>
     <string name="opaque">Opaque</string>
     <string name="alpha">Alpha</string>
+    <string name="color">Color:</string>
 </resources>
