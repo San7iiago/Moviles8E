@@ -9,5 +9,6 @@
     <color name="colorBtnRegister">#2ecc71</color>
 
     <!-- Text colors -->
-    <color name="colorTxtLogin">#FFFFFF</color>
+    <color name="colorTxtLogin">#ecf0f1</color>
+
 </resources>

@@ -17,6 +17,17 @@ public class Database extends SQLiteOpenHelper {
                 "id int primary key autoincrement not null, " +
                 "email text not null, " +
                 "password text not null)");
+
+        market.execSQL("create table products (" +    //Crear tabla productos y sus campos
+                "id int primary key autoincrement not null, " +
+                "prod_name text not null, " +
+                "description text not null, " +
+                "unit_price, " +
+                "quantity)");
+
+        /*market.execSQL("insert into products (" +
+                "prod_name, description, unit_price, quantity," +
+                "quantity)");*/
     }
 
     @Override

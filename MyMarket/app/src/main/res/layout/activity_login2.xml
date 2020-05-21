@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login2Activity"
+    android:background="@drawable/fondo"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:padding="30dp">
+
+        <EditText
+            android:gravity="center_horizontal"
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/lbl_username"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/colorTxtLogin"
+            android:background="@drawable/style_et_login"
+            android:textSize="20dp"
+            android:textColor="@color/colorTxtLogin"/>
+
+        <EditText
+            android:gravity="center_horizontal"
+            android:id="@+id/editText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="@string/lbl_password"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/colorTxtLogin"
+            android:background="@drawable/style_et_login"
+            android:textSize="20dp"
+            android:textColor="@color/colorTxtLogin"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/style_btns_login"
+            android:text="@string/txtBtn_login"
+            android:textColor="@drawable/style_login_btns_pressed" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/style_btns_signup"
+            android:text="@string/txtBtn_Register"
+            android:textColor="@drawable/style_login_btns_pressed" />
+    </LinearLayout>
+
+</RelativeLayout>
