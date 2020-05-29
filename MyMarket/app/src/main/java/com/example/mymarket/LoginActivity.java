@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 
 public class LoginActivity extends AppCompatActivity {
@@ -18,8 +17,8 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        user_name = findViewById(R.id.txtUsername);
-        passwd = findViewById(R.id.txtPassword);
+        user_name = findViewById(R.id.txt);
+        passwd = findViewById(R.id.txt2);
     }
 
     public void btnLogin(View view){

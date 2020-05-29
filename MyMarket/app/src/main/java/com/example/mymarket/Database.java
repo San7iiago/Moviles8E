@@ -14,20 +14,27 @@ public class Database extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase market) { //market es el nombre de la BD
         market.execSQL("create table users (" +    //Crear tabla usuarios y sus campos
-                "id int primary key autoincrement not null, " +
-                "email text not null, " +
+                "id integer primary key autoincrement not null, " +
+                "email text not null unique, " +
                 "password text not null)");
 
         market.execSQL("create table products (" +    //Crear tabla productos y sus campos
-                "id int primary key autoincrement not null, " +
+                "id integer primary key autoincrement not null, " +
                 "prod_name text not null, " +
                 "description text not null, " +
-                "unit_price, " +
-                "quantity)");
+                "unit_price float, " +
+                "quantity integer)");
 
-        /*market.execSQL("insert into products (" +
-                "prod_name, description, unit_price, quantity," +
-                "quantity)");*/
+        market.execSQL("create table cities (" +    //Crear tabla productos y sus campos
+                "id integer primary key autoincrement not null, " +
+                "city_name text not null, " +
+                "description text not null, " +
+                "abrev text not null)");
+
+        market.execSQL("insert into " +
+                "products (prod_name, description, unit_price, quantity) " +
+                "values ('TENNIS','TENNIS ADIDAS WHITE T40',100000,50)"
+        );
     }
 
     @Override

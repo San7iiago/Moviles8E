@@ -27,7 +27,7 @@
 
         <EditText
             android:gravity="center_horizontal"
-            android:id="@+id/editText3"
+            android:id="@+id/txtUser"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -40,7 +40,7 @@
 
         <EditText
             android:gravity="center_horizontal"
-            android:id="@+id/editText4"
+            android:id="@+id/txtPass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
@@ -58,6 +58,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:background="@drawable/style_btns_login"
+            android:onClick="btnLogin"
             android:text="@string/txtBtn_login"
             android:textColor="@drawable/style_login_btns_pressed" />
 
@@ -67,6 +68,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:background="@drawable/style_btns_signup"
+            android:onClick="btnGotoRegisterForm"
             android:text="@string/txtBtn_Register"
             android:textColor="@drawable/style_login_btns_pressed" />
     </LinearLayout>
